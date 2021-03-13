@@ -17,6 +17,11 @@ $data = json_decode($json, TRUE);
 </head>
 
 <body>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="index.php">
+            <class="d-inline-block align-top alt="">Live Count Covid-19
+        </a>
+    </nav>
 
 </body>
 
