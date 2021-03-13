@@ -1,7 +1,11 @@
 <html>
 <?php
+$url = "https://api.covid19api.com/total/country/philippines";
 
+$json = file_get_contents($url);
+$data = json_decode($json, TRUE);
 ?>
+
 <head>
     <title>Covid-19 Live Counts</title>
 
