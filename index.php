@@ -23,6 +23,8 @@ $data = json_decode($json, TRUE);
         </a>
     </nav>
 
+    <h1 style="text-align: center;">Philippines</h1>
+
 </body>
 
 </html>
