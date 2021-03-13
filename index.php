@@ -1,5 +1,7 @@
 <html>
+<?php
 
+?>
 <head>
     <title>Covid-19 Live Counts</title>
 
