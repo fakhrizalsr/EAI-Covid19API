@@ -20,10 +20,10 @@ $data = json_decode($json, TRUE);
         </a>
     </nav>
 
-    <h1 style="text-align: center; margin-top:10px; margin-bottom:15px">Philippines</h1>
+    <h2 style="text-align: center; margin-top:10px; margin-bottom:15px">Philippines</h2>
 
-    <div class="card border-info mb-3" style="width: 20rem; margin: auto; float: none; margin-bottom:10px;">
-        <img class="card-img-top" src="bendera.png" alt="Card image cap" style="height: 185px;">
+    <div class="card border-info mb-3" style="width: 19rem; margin: auto; float: none; margin-bottom:10px;">
+        <img class="card-img-top" src="bendera.png" alt="Card image cap" style="height: 175px;">
         <div class="card-header" style="text-align: center; height: 60px;">
             <h3>Cases</h3>
         </div>
