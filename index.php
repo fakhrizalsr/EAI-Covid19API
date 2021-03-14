@@ -30,7 +30,6 @@ $data = json_decode($json, TRUE);
         <div class="card-header" style="text-align: center;"><h3>Cases</h3></div>
         <div class="card-body">
             <p class="card-text" style="text-align: center;"><h5><b>Total Cases</b></h5></p>
-            <p class="card-text">HAHAH</p>
         </div>
     </div>
 </body>
