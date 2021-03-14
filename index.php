@@ -23,12 +23,14 @@ $data = json_decode($json, TRUE);
         </a>
     </nav>
 
-    <h1 style="text-align: center; margin-top:20px;">Philippines</h1>
+    <h1 style="text-align: center; margin-top:20px; margin-bottom:15px">Philippines</h1>
 
-    <div class="card" style="width: 18rem; margin: auto; float: none; margin-bottom:10px;">
+    <div class="card text-white bg-danger mb-3" style="width: 20rem; margin: auto; float: none; margin-bottom:10px;">
         <img class="card-img-top" src="bendera.png" alt="Card image cap">
+        <div class="card-header" style="text-align: center;"><h3>Cases</h3></div>
         <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <p class="card-text" style="text-align: center;"><h5><b>Total Cases</b></h5></p>
+            <p class="card-text">HAHAH</p>
         </div>
     </div>
 </body>
