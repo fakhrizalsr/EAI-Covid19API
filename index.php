@@ -3,7 +3,7 @@ $url = "https://api.covid19api.com/total/country/philippines";
 $json = file_get_contents($url);
 $data = json_decode($json, TRUE);
 ?>
-<html>
+<!DOCTYPE html>
 
 <head>
     <title>Covid-19 Live Counts</title>
@@ -23,13 +23,21 @@ $data = json_decode($json, TRUE);
         </a>
     </nav>
 
-    <h1 style="text-align: center; margin-top:20px; margin-bottom:15px">Philippines</h1>
+    <h1 style="text-align: center; margin-top:10px; margin-bottom:15px">Philippines</h1>
 
-    <div class="card text-white bg-danger mb-3" style="width: 20rem; margin: auto; float: none; margin-bottom:10px;">
-        <img class="card-img-top" src="bendera.png" alt="Card image cap">
-        <div class="card-header" style="text-align: center;"><h3>Cases</h3></div>
-        <div class="card-body">
-            <p class="card-text" style="text-align: center;"><h5><b>Total Cases</b></h5></p>
+    <div class="card border-info mb-3" style="width: 20rem; margin: auto; float: none; margin-bottom:10px;">
+        <img class="card-img-top" src="bendera.png" alt="Card image cap" style="height: 185px;">
+        <div class="card-header" style="text-align: center; height: 60px;">
+            <h3>Cases</h3>
+        </div>
+        <div class="card-box" style="text-align: center;">
+            <p class="card-text"><h5>Total :</h5></p>
+            <p class="card-text"><h2>11111111</h2></p>
+            <p class="card-text"><h5>Active :</h5></p>
+            <p class="card-text"><h2>11111111</h2></p>
+            <p class="card-text"><h5>Recovered :</h5></p>
+            <p class="card-text"><h2>11111111</h2></p>
+            <p>Last Update : </p>
         </div>
     </div>
 </body>
