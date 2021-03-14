@@ -1,5 +1,5 @@
 <?php
-$url = "https://api.covid19api.com/total/country/philippines";
+$url = "https://api.covid19api.com/live/country/philippines";
 $json = file_get_contents($url);
 $data = json_decode($json, TRUE);
 ?>
@@ -19,7 +19,7 @@ $data = json_decode($json, TRUE);
 <body>
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="index.php">
-            <class="d-inline-block align-top alt="">Live Count Covid-19
+        <class="d-inline-block align-top alt="">Live Count Covid-19
         </a>
     </nav>
 
@@ -31,13 +31,13 @@ $data = json_decode($json, TRUE);
             <h3>Cases</h3>
         </div>
         <div class="card-box" style="text-align: center;">
-            <p class="card-text"><h5>Total :</h5></p>
-            <p class="card-text"><h2>11111111</h2></p>
+            <p class="card-text"><h5>Confirmed :</h5></p>
+            <p class="card-text"><h2> <?= $data[0] ["Confirmed"] ?></h2></p>
             <p class="card-text"><h5>Active :</h5></p>
-            <p class="card-text"><h2>11111111</h2></p>
+            <p class="card-text"><h2> <?= $data[0] ["Active"]?></h2></p>
             <p class="card-text"><h5>Recovered :</h5></p>
-            <p class="card-text"><h2>11111111</h2></p>
-            <p>Last Update : </p>
+            <p class="card-text"><h2><?= $data[0] ["Recovered"]?></h2></p>
+            <p>Last Update : <br><?= $data[0] ["Date"] ?> </p>
         </div>
     </div>
 </body>
